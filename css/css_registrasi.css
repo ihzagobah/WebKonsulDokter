@@ -1,0 +1,50 @@
+
+        body {
+            font-family: 'Noto Sans', sans-serif;
+            background: blue;
+           
+        }
+
+        table {
+            transform: scale(0);
+            animation: zooming 1s ease forwards;
+            position: relative;
+            border-color: solid;
+            background-color: #00FFFF;
+            font-family: 'Noto Sans', sans-serif;
+        }
+
+        @keyframes zooming {
+            100% {
+                transform: scale(1.0);
+            }
+            
+        }
+
+        input[type=text], input[type=password] {
+            padding: 10px;
+            border: 1px solid #999;
+            border-radius: 5px;
+            border-style: solid;
+        }
+
+        select {
+            padding: 5px;
+            background-color: #FFF;
+            border: 1px solid #999;
+            border-radius: 5px;
+            border-style: solid;
+        }
+
+        input[type=submit] {
+            height: 40px;
+            width: 100%;
+            display: block;
+            padding: 5px;
+            background-color: #FFF;
+            border: 1px solid #999;
+            border-radius: 5px;
+            border-style: solid;
+            color: #FFF;
+            font-weight: bold;
+        }
